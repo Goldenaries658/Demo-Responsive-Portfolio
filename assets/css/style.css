@@ -19,6 +19,10 @@
   line-height: 80px;
 }
 
+.nav-desk {
+    margin-right: 9.5%;
+}
+
 .nav-desk > ul {
   display: flex;
   justify-content: center;
@@ -37,6 +41,10 @@
 
 .nav-desk > ul > li > a {
     padding: 0 15px;
+}
+
+.nav-desk > ul > li > #current {
+    padding: 0 20px;
 }
 
 .header-mob {
