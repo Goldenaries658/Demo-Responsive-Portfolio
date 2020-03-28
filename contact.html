@@ -63,7 +63,7 @@
             <hr class="my-4" />
             <div class="row">
               <div class="col-sm-4" style="padding-bottom: 20px;">
-                <form>
+                <form id="contact-form">
                   <fieldset>
                     <legend>Let me know what you think.</legend>
                     <div class="form-group">
@@ -115,7 +115,7 @@
                         rows="3"
                       ></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">
+                    <button id="submit-form" type="submit" class="btn btn-primary">
                       Submit
                     </button>
                   </fieldset>
@@ -141,7 +141,7 @@
     <!--Closing container-->
 
     <script>
-      var $form = $('form#test-form'),
+      var $form = $('form#contact-form'),
         url =
           'https://script.google.com/macros/s/AKfycbylX_WNjOHrpdPVz-yY7eOg_BDDyB2JAkqE-FmbsQ7bPkHVtRLS/exec';
 
