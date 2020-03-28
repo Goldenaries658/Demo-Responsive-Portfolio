@@ -115,7 +115,11 @@
                         rows="3"
                       ></textarea>
                     </div>
-                    <button id="submit-form" type="submit" class="btn btn-primary">
+                    <button
+                      id="submit-form"
+                      type="submit"
+                      class="btn btn-primary"
+                    >
                       Submit
                     </button>
                   </fieldset>
@@ -139,25 +143,6 @@
       <!--Closing row-->
     </div>
     <!--Closing container-->
-
-    <script>
-      var $form = $('form#contact-form'),
-        url =
-          'https://script.google.com/macros/s/AKfycbylX_WNjOHrpdPVz-yY7eOg_BDDyB2JAkqE-FmbsQ7bPkHVtRLS/exec';
-
-      $('#submit-form').on('click', function(e) {
-        e.preventDefault();
-        var jqxhr = $.ajax({
-          url: url,
-          method: 'GET',
-          dataType: 'json',
-          data: $form.serializeObject()
-        })
-          .success
-          // do something
-          ();
-      });
-    </script>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
