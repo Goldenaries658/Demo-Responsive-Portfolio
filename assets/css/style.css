@@ -1,0 +1,90 @@
+.desktop-container {
+  background-color: #f7f7f9;
+  display: flex;
+}
+
+.header-desk {
+  background-color: #af2929;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin-left: 9.5%;
+  padding: 10px;
+}
+
+.header-desk > h1 {
+  color: #f7f7f9;
+}
+
+.nav-desk > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.nav-desk > ul > li {
+  display: inline;
+  padding: 0 5px;
+  margin: 0px;
+}
+
+.nav-desk > ul > li > a {
+    padding: 0 15px;
+}
+
+.header-mob {
+  padding: 15px;
+  background-color: #af2929;
+  text-align: center;
+  line-height: 60px;
+  height: 60px;
+}
+
+.header-mob > h1 {
+  color: #f7f7f9;
+}
+
+.nav-mob {
+  background: #f7f7f9;
+}
+.nav-mob > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-mob > ul > li {
+  display: inline;
+  padding: 0 5px;
+  margin: 0px;
+}
+
+#current {
+  background: #af292960;
+}
+
+@media screen and (min-width: 768px) {
+  #is-mob {
+    display: none;
+  }
+  #is-desk {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #is-mob {
+    display: unset;
+  }
+  #is-desk {
+    display: none;
+  }
+}
