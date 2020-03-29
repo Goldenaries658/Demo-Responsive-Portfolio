@@ -4,7 +4,7 @@ body {
 
 /* Desktop navbar */
 .desktop-container {
-  background-color: #f7f7f9;
+  background-color: #343a40;
   display: flex;
 }
 
@@ -46,6 +46,7 @@ body {
 
 .nav-desk > ul > li > a {
   padding: 0 15px;
+  color: #f7f7f9;
 }
 
 .nav-desk > ul > li > #current {
