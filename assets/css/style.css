@@ -1,3 +1,8 @@
+body {
+  background-image: url(../images/bg-pattern.jpg);
+}
+
+/* Desktop navbar */
 .desktop-container {
   background-color: #f7f7f9;
   display: flex;
@@ -20,7 +25,7 @@
 }
 
 .nav-desk {
-    margin-right: 9.5%;
+  margin-right: 9.5%;
 }
 
 .nav-desk > ul {
@@ -40,13 +45,14 @@
 }
 
 .nav-desk > ul > li > a {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .nav-desk > ul > li > #current {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
+/* Mobile navbar */
 .header-mob {
   padding: 15px;
   background-color: #af2929;
@@ -80,6 +86,7 @@
   background: #af292960;
 }
 
+/* Navbar media queries */
 @media screen and (min-width: 768px) {
   #is-mob {
     display: none;
@@ -99,6 +106,42 @@
   }
 }
 
+/* Page title sizing */
 .display-3 {
   font-size: 3em;
+}
+
+/* Index css */
+#profile-pic {
+  padding-bottom: 20px;
+}
+
+#user-profile {
+  padding: 0 30px 0 30px;
+}
+
+#passions > ul {
+  padding: 0 20% 20% 0;
+}
+
+#passions > ul > li {
+  background: #f7f7f9;
+  padding-left: 0;
+}
+
+#inspiration > ul {
+  padding: 0 20% 10% 0;
+}
+
+#inspiration > ul > li {
+  background: #f7f7f9;
+  padding-left: 0;
+}
+
+#portfolio-imgs > .row > article {
+  padding: 30px;
+}
+
+#contact > .row > div {
+  padding-bottom: 20px;
 }
