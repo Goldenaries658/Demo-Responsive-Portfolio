@@ -49,7 +49,7 @@ body {
   color: #f7f7f9;
 }
 
-.nav-desk > ul > li > #current {
+.nav-desk > ul > li > .current {
   padding: 0 20px;
 }
 
@@ -83,7 +83,7 @@ body {
   margin: 0px;
 }
 
-#current {
+.current {
   background: #af292960;
 }
 
