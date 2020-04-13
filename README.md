@@ -1,4 +1,4 @@
-# Week 02 Homework - Responsive Portfolio
+# Week 02 Homework - Demo Responsive Portfolio
 
 ## Summary
 
