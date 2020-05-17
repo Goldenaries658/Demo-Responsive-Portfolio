@@ -1,5 +1,9 @@
 # Week 02 Homework - Demo Responsive Portfolio
 
+## Demo
+
+goldenaries658.github.io/Demo-Responsive-Portfolio
+
 ## Summary
 
 The goal of this project was to create a portfolio that is both accessible and 
@@ -8,7 +12,7 @@ This needed to loosely follow a design specification.
 
 ## Main features
 
-The portfolio features 3 main pages: Index (About Me), Portfolio, and Contact
+The portfolio features 3 main pages: Index (About Me), Portfolio, and Contact  
 Responsive Nav
 
 ### Index
